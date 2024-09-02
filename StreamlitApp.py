@@ -45,7 +45,7 @@ def show_projects():
     - It is a multivendor e-commerce web application.
     - Key technologies: React JS, Springboot
     """)
-    st.image("C:/Users/Sherlyn Olalo/Downloads/CRANVAS.jpg")
+    st.image("StreamlitPortfolio/CRANVAS.jpg")
     st.markdown("<hr>", unsafe_allow_html=True)
     st.subheader(":art: Campus Eats")
     st.write("""
@@ -54,7 +54,7 @@ def show_projects():
     food delivery service directly on campus.
     - Key technologies: React JS, Springboot
     """)
-    st.image("C:/Users/Sherlyn Olalo/Downloads/CAMPUSEATS.png")
+    st.image("StreamlitPortfolio/CAMPUSEATS.png")
 
 def show_skills():
     st.header("Skills")
@@ -73,7 +73,7 @@ def show_certifications():
     st.markdown("<hr>", unsafe_allow_html=True)
     st.subheader(":trophy: EFAM Training")
     st.write("Feb 2021 - Mar 2021")
-    st.image("C:/Users/Sherlyn Olalo/Downloads/EFAM.png")
+    st.image("StreamlitPortfolio/EFAM.png")
 
 
 st.set_page_config(layout="wide")
@@ -196,7 +196,7 @@ if dark_mode:
     )
 
 
-Image1 = Image.open("C:/Users/Sherlyn Olalo/Pictures/XIEXIE2024/pictures/1991.jpg")
+Image1 = Image.open("StreamlitPortfolio/1991.jpg")
 
 col1, col2 = st.columns([1, 3])
 
